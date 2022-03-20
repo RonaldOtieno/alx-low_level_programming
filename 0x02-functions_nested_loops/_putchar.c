@@ -1,20 +1,14 @@
-#include "main.h"
+#include <stdlib.h>
+#include <time.h>
+/* more headers goes there */
 
-/**
- * print_alphabet - print alphabet lowercase
- *
- * Return: Always 0.
- */
-
-void print_alphabet(void)
+/* betty style doc for function main goes there */
+int main(void)
 {
-char alphabet;
+	int n;
 
-for (alphabet = 'a'; alphabet <= 'z'; alphabet++)
-{
-_putchar(alphabet);
-}
-
-_putchar('\n');
-
+	srand(time(0));
+	n = rand() - RAND_MAX / 2;
+	/* your code goes there */
+	return (0);
 }
