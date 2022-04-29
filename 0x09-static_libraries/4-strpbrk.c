@@ -1,4 +1,3 @@
-cat 4-strpbrk.c
 #include "main.h"
 #include <stdio.h>
 
