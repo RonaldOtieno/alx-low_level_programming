@@ -1,6 +1,10 @@
 #include <stdio.h>
 #include <stdlib.h>
-#include "main.h"
+#include <sys/types.h>
+#include <sys/stat.h>
+#include <fcntl.h>
+#include <unistd.h>
+#include <elf.h>
 
 /**
  * print_addr - prints address
@@ -240,4 +244,3 @@ int main(int argc, char *argv[])
 
 	return (0);
 }
-
